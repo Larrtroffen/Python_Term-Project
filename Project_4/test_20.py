@@ -2,5 +2,5 @@
 def ccount(s):
     return s.lower().count('c')
 
-s = input('请输入字符串')
+s = "Can you can a can as a Canner can can a can."
 print(ccount(s))
