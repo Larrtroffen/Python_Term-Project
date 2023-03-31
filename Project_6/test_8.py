@@ -29,10 +29,10 @@ def update():
     new_dict = {'Spain':'Spanish','Japan':'Japanese'}
     nations.update(new_dict)
     
-    
-print(all_keys(nations)) # 显示字典的所有键
-print(all_items(nations)) # 显示字典的所有值
-print(all_dict(nations)) # 显示字典的所有项
-print(france(nations)) # 获取键'France'对应得值
-update() # 更新字典
-print(nations) # 显示更新后的字典
+if __name__== "__main__" :    
+    print(all_keys(nations)) # 显示字典的所有键
+    print(all_items(nations)) # 显示字典的所有值
+    print(all_dict(nations)) # 显示字典的所有项
+    print(france(nations)) # 获取键'France'对应得值
+    update() # 更新字典
+    print(nations) # 显示更新后的字典

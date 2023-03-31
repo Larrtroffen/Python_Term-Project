@@ -1,5 +1,6 @@
 # 练习11
 import random
+
 A = set()
 B = set(random.sample(range(10000), 1000))
 C = set(random.sample(range(8000, 10000), 1000))
