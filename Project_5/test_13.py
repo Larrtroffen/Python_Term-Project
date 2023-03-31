@@ -7,4 +7,4 @@ for a in range(100, 201):
         continue
 for i in range(0, len(ls)):
     if (i+1) % 5 == 0:
-        print(ls[i-5: i])
+        print(ls[i-4: i])

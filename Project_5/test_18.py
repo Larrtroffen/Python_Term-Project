@@ -5,9 +5,9 @@ def modify(lst):
     for i in lst:
         if i not in lst1:
             lst1.append(i)
-    print("去重之后",lst)
+    print("去重之后",lst1)
     lst1.sort(reverse=True)
-    print("倒序排序",lst)
+    print("倒序排序",lst1)
     return
 
 lst = [70,88,91,70,107,234,91,177,282,197]

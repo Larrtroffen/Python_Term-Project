@@ -4,7 +4,7 @@ sum_ans = 0
 
 while True:
     num = input("请连续输入数字：")
-    if num == ' ':
+    if num == '':
         break
     else:
         sum_ans+=float(num)
