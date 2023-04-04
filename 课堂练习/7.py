@@ -1,4 +1,6 @@
-f = open('/课堂练习/tets.txt','r+')
-res=f.write('000\n')
+f = open('/home/larr/Python_homework/课堂练习/tets.txt','a+')
+f.seek(5)
+res=f.write('hh\n')
+f.seek(2)
 res1=f.read()
 print(res1)
