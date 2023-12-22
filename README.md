@@ -1,3 +1,2 @@
-# Python_homework
+# Python课程作业（sd00332940）
 **山东大学公共管理+信息双学位班python课作业**
-jsh lxh liao
